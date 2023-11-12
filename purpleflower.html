@@ -124,10 +124,12 @@
         <div class="row justify-content-center mt-4">
 
             <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <form action="https://mobirise.eu/" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="rH+hH/zImDBsQFbtrd4hhxpFliU1n5FDqfDRdvL/Et4dPmMyh6LDXG9xd6nbJvl5MsV8p/ZIUgIs8QIArvKPU/Ex+Qa6ol2HPjr/qLXXS1nVffabiXMNyyjB1I98z0Rx">
+                <form action="index.html" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name"><input type="hidden" name="email" data-form-email="true" value="rH+hH/zImDBsQFbtrd4hhxpFliU1n5FDqfDRdvL/Et4dPmMyh6LDXG9xd6nbJvl5MsV8p/ZIUgIs8QIArvKPU/Ex+Qa6ol2HPjr/qLXXS1nVffabiXMNyyjB1I98z0Rx">
                     <div class="row">
                         <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Order Confirmed</div>
-                                                <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Order Confirmed</div>
+                                                <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Thank You For Your Purchase! </div>
+                                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">We will Send your Order Details in Email! </div>
+                                            <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">Come again soon! </div>
 
                         <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
                             Oops...! some problem!
@@ -146,72 +148,81 @@
                         <div class="col-12 form-group mb-3" data-for="textarea">
                             <textarea name="textarea" placeholder="add address and anything (ex: to make gift or send to someone else)" data-form-field="textarea" class="form-control" id="textarea-form02-1"></textarea>
                         </div>
-                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-7">Confirm</button>
-                            <div class="col-12 form-group mb-3" data-for="aria-expanded">
-                                <div class="card-details">
-                                    <p>Pay using Credit or Debit card</p>
-                         
-                                    <div class="card-number">
-                                        <label> Card Number </label>
-                                        <input type="text"
-                                               class="card-number-field"
-                                               placeholder="###-###-###" />
-                                    </div>
-                                    <br />
-                                    <div class="date-number">
-                                        <label> Expiry Date </label>
-                                        <input type="text"
-                                               class="date-number-field"
-                                               placeholder="DD-MM-YY" />
-                                    </div>
-                         
-                                    <div class="cvv-number">
-                                        <label> CVV number </label>
-                                        <input type="text"
-                                               class="cvv-number-field"
-                                               placeholder="xxx" />
-                                    </div>
-                                    <div class="nameholder-number">
-                                        <label> Card Holder name </label>
-                                        <input type="text"
-                                               class="card-name-field"
-                                               placeholder="Enter your Name" />
-                                    </div>
-                          <style>
-                          .payment-section {
-                            padding: 1rem;
-                          }
-                          
-                          .payment-form {
-                            max-width: 500px;
-                            margin: 0 auto;
-                          }
-                          
-                          .form-group {
-                            margin-bottom: 1rem;
-                          }
-                          
-                          .form-group label {
-                            display: block;
-                            margin-bottom: 0.5rem;
-                          }
-                          
-                          .form-group input {
-                            width: 100%;
-                            padding: 0.5rem;
-                            border: 1px solid #ccc;
-                            border-radius: 4px;
-                          }
-                          
-                          .btn {
-                            display: block;
-                            margin-top: 1rem;
-                          }
-                          </style>
-                            <div class="container">
-    
-    
-                                </div></div>
+                        <link name="css for payments" href="payment.css">
+                        <div class="col-12 form-group mb-3" data-for="aria-expanded">
+                            <div class="card-details">
+                                <p>Pay using Credit or Debit card</p>
+                     
+                                <div class="card-number">
+                                    <label> Card Number </label>
+                                    <input type="text"
+                                           class="card-number-field"
+                                           placeholder="###-###-###" />
+                                </div>
+                                <br />
+                                <div class="date-number">
+                                    <label> Expiry Date </label>
+                                    <input type="text"
+                                           class="date-number-field"
+                                           placeholder="DD-MM-YY" />
+                                </div>
+                     
+                                <div class="cvv-number">
+                                    <label> CVV number </label>
+                                    <input type="text"
+                                           class="cvv-number-field"
+                                           placeholder="xxx" />
+                                </div>
+                                <div class="nameholder-number">
+                                    <label> Card Holder name </label>
+                                    <input type="text"
+                                           class="card-name-field"
+                                           placeholder="Enter your Name" />
+                                </div>
+                      <style>
+                      .payment-section {
+                        padding: 1rem;
+                      }
+                      
+                      .payment-form {
+                        max-width: 500px;
+                        margin: 0 auto;
+                      }
+                      
+                      .form-group {
+                        margin-bottom: 1rem;
+                      }
+                      
+                      .form-group label {
+                        display: block;
+                        margin-bottom: 0.5rem;
+                      }
+                      
+                      .form-group input {
+                        width: 100%;
+                        padding: 0.5rem;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                      }
+                      
+                      .btn {
+                        display: block;
+                        margin-top: 1rem;
+                      }
+                      </style>
+                        <div class="container">
+
+
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn"><button type="submit" class="btn btn-primary display-7">Confirm</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section></div>
                     </div>
                 </form>
             </div>
